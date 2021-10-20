@@ -1,0 +1,27 @@
+{
+    "name": "magenxcommerce/module-vault-graph-ql",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magenxcommerce/framework": "103.0.*",
+        "magenxcommerce/module-vault": "101.2.*",
+        "magenxcommerce/module-graph-ql": "100.4.*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\VaultGraphQl\\": ""
+        }
+    },
+    "version": "100.4.0",
+    "replace": {
+        "magento/module-vault-graph-ql": "*"
+    }
+}
